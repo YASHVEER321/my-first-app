@@ -1,0 +1,37 @@
+<style>
+
+.nav a{
+  float:left;
+  color:honeydew;
+  padding:39px 29px 0px 90px;
+  text-decoration:none;
+  text-align:center;
+  font-size:18px
+}
+.nav {
+  background-color:gray;
+  text-decoration:none;
+  width:100%;
+  height:95px
+}
+
+.forBody{
+  color:blue;
+  
+}
+</style>
+
+
+<div class="nav">
+  <a routerLink="/compo1">HOME</a>
+  <a routerLink="/compo4">INTERNATIONAL NEWS</a>
+  <a routerLink="/compo3">TECHNOLOGY NEWS</a>
+  <a routerLink="/compo4">INDIA NEWS</a>
+  <a routerLink="/compo1">LOGIN/SIGN UP</a>
+</div>
+
+<div class="forBody"> 
+  <router-outlet></router-outlet>
+
+
+</div>
